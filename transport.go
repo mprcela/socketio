@@ -1,10 +1,11 @@
 package socketio
 
 import (
-	"code.google.com/p/go.net/websocket"
 	"errors"
 	"io"
 	"time"
+
+	"golang.org/x/net/websocket"
 )
 
 // Transport is an interface for sending and receiving raw messages from
